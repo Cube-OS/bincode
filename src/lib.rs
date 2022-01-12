@@ -93,7 +93,7 @@ where
     T: serde::Serialize,
 {
     DefaultOptions::new()
-        .with_fixint_encoding()
+        // .with_fixint_encoding()
         .serialize_into(writer, value)
 }
 
@@ -108,8 +108,8 @@ where
     T: serde::Serialize,
 {
     DefaultOptions::new()
-        .with_fixint_encoding()
-        .allow_trailing_bytes()
+        // .with_fixint_encoding()
+        // .allow_trailing_bytes()
         .serialize(value)
 }
 
@@ -127,8 +127,8 @@ where
     T: serde::de::DeserializeOwned,
 {
     DefaultOptions::new()
-        .with_fixint_encoding()
-        .allow_trailing_bytes()
+        // .with_fixint_encoding()
+        // .allow_trailing_bytes()
         .deserialize_from(reader)
 }
 
@@ -148,8 +148,8 @@ where
     T: serde::de::DeserializeOwned,
 {
     DefaultOptions::new()
-        .with_fixint_encoding()
-        .allow_trailing_bytes()
+        // .with_fixint_encoding()
+        // .allow_trailing_bytes()
         .deserialize_from_custom(reader)
 }
 
@@ -163,8 +163,8 @@ where
     R: BincodeRead<'a>,
 {
     DefaultOptions::new()
-        .with_fixint_encoding()
-        .allow_trailing_bytes()
+        // .with_fixint_encoding()
+        // .allow_trailing_bytes()
         .deserialize_in_place(reader, place)
 }
 
@@ -179,8 +179,8 @@ where
     T: serde::de::Deserialize<'a>,
 {
     DefaultOptions::new()
-        .with_fixint_encoding()
-        .allow_trailing_bytes()
+        // .with_fixint_encoding()
+        // .allow_trailing_bytes()
         .deserialize(bytes)
 }
 
@@ -195,7 +195,7 @@ where
     T: serde::Serialize,
 {
     DefaultOptions::new()
-        .with_fixint_encoding()
-        .allow_trailing_bytes()
+        // .with_fixint_encoding()
+        // .allow_trailing_bytes()
         .serialized_size(value)
 }
