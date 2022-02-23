@@ -62,7 +62,7 @@ structs are encoded by encoding their fields one-by-one, and enums are
 encoded by first writing out the tag representing the variant and
 then the contents.
 
-However, there are some implementation details to be aware of (here is where Cube-OS/bincode differs from the bincode crate):
+However, there are some implementation details to be aware of (**here is where Cube-OS/bincode differs from the bincode crate**):
 
 * every type is encoded in the smallest possible amount of bytes.
   e.g. enum variants are encoded as `u8`
