@@ -6,7 +6,7 @@ exclude = ["logo.png", "examples/*", ".gitignore", ".travis.yml"]
 
 publish =  true
 
-repository = "https://github.com/servo/bincode"
+repository = "https://github.com/Cube-OS/bincode"
 documentation = "https://docs.rs/bincode"
 readme = "./readme.md"
 categories = ["encoding", "network-programming"]
@@ -30,4 +30,4 @@ serde_derive = "1.0.27"
 i128 = []
 
 [badges]
-travis-ci = { repository = "servo/bincode" }
+travis-ci = { repository = "https://github.com/Cube-OS/bincode" }
