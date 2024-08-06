@@ -4,7 +4,7 @@ version = "1.3.4" # remember to update html_root_url
 authors = ["Ty Overby <ty@pre-alpha.com>", "Francesco Mazzoli <f@mazzo.li>", "David Tolnay <dtolnay@gmail.com>", "Zoey Riordan <zoey@dos.cafe>"]
 exclude = ["logo.png", "examples/*", ".gitignore", ".travis.yml"]
 
-publish =  true
+# publish =  true
 
 repository = "https://github.com/Cube-OS/bincode"
 documentation = "https://docs.rs/bincode"
